@@ -1,0 +1,37 @@
+@import "../../../../styles/colors";
+.headerMenu {
+  display: flex;
+  justify-content: space-between;
+  max-height: 300px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 360px;
+}
+.heading {
+  font-size: 60px;
+  color: $black;
+  font-family: "Rufina";
+  margin: 0;
+  padding-top: 60px;
+}
+.subtitle {
+  font-size: 15px;
+  font-family: "Rufina";
+  color: $graphite;
+}
+
+.subHeading {
+  font-size: 20px;
+  color: $graphite;
+}
+.headerMenuImage {
+  transform: translateX(110px);
+
+  img {
+    width: 500px;
+    object-fit: cover;
+  }
+}

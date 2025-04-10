@@ -1,0 +1,26 @@
+@import "../../styles/colors";
+
+.iconsBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.dottedFull {
+  border-bottom: 3px dotted $white;
+  width: 100vw;
+  left: 0;
+  position: absolute;
+}
+
+.iconsinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: $white;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

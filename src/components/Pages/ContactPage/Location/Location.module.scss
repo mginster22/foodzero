@@ -1,0 +1,56 @@
+@import "../../../../styles/colors";
+.wrapper {
+  width: 100%;
+  padding: 0 120px;
+  max-width: 1644px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  box-sizing: border-box;
+}
+.adress{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 550px;
+        object-fit: cover;
+    }
+}
+.text{
+    color:black;
+    padding: 40px 40px;
+    span{
+        color:$sand;
+    }
+
+
+}
+.location{
+    margin-top: 25%;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    button{
+        border: none;
+        background: none;
+        margin: 0;
+        text-align: start;
+        border: 1px solid black;
+        width: 160px;
+        padding: 10px 15px;
+        margin-left: 30px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+.title{
+    max-width: 420px;
+    margin-top: auto;
+    padding: 30px 70px;
+    p{
+        font-size: 20px;
+    }
+
+}

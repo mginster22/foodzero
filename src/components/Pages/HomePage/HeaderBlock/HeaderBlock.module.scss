@@ -1,0 +1,61 @@
+@import "../../../../styles/colors";
+.container {
+  width: 100%;
+  padding: 0 120px;
+  max-width: 1644px;
+
+  box-sizing: border-box;
+  background-color: $black-green;
+
+}
+.headerBlock{
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Rufina", serif;
+  font-size: 100px;
+  max-width: 750px;
+  color: $white;
+  position: absolute;
+  left: 0;
+  z-index: 3;
+  max-width: 60%;
+  line-height: 1;
+}
+.subTitle {
+  font-size: 15px;
+  margin-top: 100px;
+  max-width: 380px;
+  color: $white;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.imageWrapper {
+  position: relative;
+  z-index: 2;
+  transform: translateX(100px);
+ 
+
+  img {
+    max-width: 100%;
+    width: 800px;
+    height: 700px;
+    object-fit: contain;
+  }
+}
+.imageblock {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+}

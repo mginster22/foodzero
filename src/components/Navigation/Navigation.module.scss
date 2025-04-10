@@ -1,0 +1,154 @@
+@import "../../styles/colors";
+
+
+
+// .activeContainer {
+//   background-image: url("../../../public/images/navigationImg.png");
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   height: 100vh;
+// }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  gap: 20px;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phoneNumber {
+  text-decoration: none;
+  color: $white;
+}
+
+.buttonReserv {
+  background: none;
+  padding: 10px 30px;
+  border: 1px solid $white;
+  font-size: 20px;
+  color: $white;
+  font-family: "Rufina", serif;
+}
+
+.burgermenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1000px;
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: transform 0.2s ease;
+
+  z-index: 1000;
+  padding: 120px 300px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../../../public/images/navigationImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  pointer-events: auto;
+  
+}
+
+.burgermenuActive {
+  transform: translateX(0);
+}
+
+.headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.headerBlockActive {
+  display: none;
+}
+.close {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 40px;
+  cursor: pointer;
+  color: $white;
+}
+
+.burgerItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.link {
+  font-family: "Rufina", serif;
+  color: $white;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: $sand;
+  }
+}
+
+.active {
+  color: $sand;
+}
+
+.burgerItem::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  background-color: $white;
+  border-radius: 50%;
+}
+
+.contact {
+  width: 250px;
+  position: relative;
+  margin-top: 220px;
+  color: $white;
+  font-family: "Rufina";
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .dottedFull {
+    border-bottom: 3px dotted $white;
+    width: inherit;
+  }
+  .contactItem {
+    margin-bottom: 15px;
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        color: $sand;
+      }
+    }
+  }
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

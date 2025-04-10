@@ -1,0 +1,7 @@
+@mixin font($font-family, $font-weight, $font-size) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: 1.2;  // Можно добавить строку высоты, если нужно
+    letter-spacing: 0.5px;  // Например, можно добавить расстояние между буквами
+  }

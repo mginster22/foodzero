@@ -1,0 +1,55 @@
+@import "../../../../styles/colors";
+.container {
+  width: 100%;
+  padding: 0 120px;
+  max-width: 1644px;
+
+  box-sizing: border-box;
+  background-color: $beige;
+}
+.wrapper {
+  display: flex;
+  padding-top: 150px;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.imageBlock {
+  position: relative;
+}
+.man {
+  width: 550px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.title {
+  font-size: 80px;
+  font-family: "Rufina", serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.subtitle {
+  font-size: 20px;
+  color: $graphite;
+  font-family: "Lato", serif;
+}
+.leaf1 {
+  position: absolute;
+  top:0;
+  left: 0px;
+
+  img{
+    width: 200px;
+    transform: rotate(100deg);
+  }
+}
+.leaf2{
+    display: flex;
+    justify-content: end;
+   img{
+    width: 250px;
+
+   }
+}

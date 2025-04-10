@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    position: absolute;
+    top:300px;
+    transform: translateX(-130px);
+    img{
+        width: 160px;
+    }    
+}

@@ -1,0 +1,60 @@
+@import "../../../../styles/colors";
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1 1 400px;
+  max-width: 500px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Rufina", serif;
+  font-size: 38px;
+  color: $black;
+  margin-bottom: 8px;
+  max-width: 460px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: $black;
+  margin-top: auto; // фиксирует subtitle внизу блока
+}
+
+.price {
+  font-size: 30px;
+  font-family: 'Rufina', serif;
+  color: $black;
+  text-align: end;
+  padding: 5px;
+}
+
+.borderDot {
+  border-bottom: 3px dotted $black;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 1; // занимает доступную высоту
+  gap: 20px;
+}

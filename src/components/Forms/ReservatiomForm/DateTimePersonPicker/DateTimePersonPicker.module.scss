@@ -1,0 +1,74 @@
+.dtpwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important;
+  position: absolute !important;
+}
+.custominput {
+  width: 300px;
+  height: 62px; // Фиксированная высота
+  padding: 25px;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.custominput:focus {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: none;
+}
+
+
+/* Выпадающий список */
+.customselect {
+  position: relative;
+  width: 300px;
+}
+
+.customselectheader {
+  height: 62px;
+  padding: 25px;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.customselectlist {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+.customselectlist li {
+  padding: 15px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.arrow {
+  font-size: 18px;
+}

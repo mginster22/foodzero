@@ -1,0 +1,39 @@
+@import "../../../../styles/colors";
+
+.wrapper{
+    width: 100%;
+    padding: 0 120px;
+    max-width: 1644px;
+    padding-bottom: 150px;
+
+    box-sizing: border-box;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color:black;
+    font-size: 60px;
+    margin: 0;
+}
+.subtitle{
+    color:$graphite;
+    font-size: 20px;
+}
+.priceBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+    margin-top: 30px;
+}
+.imageBlock{
+    img{
+        object-fit: cover;
+        width: 550px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,21 @@
+.datewrapper{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dotted{
+border-bottom: 2px dotted white;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

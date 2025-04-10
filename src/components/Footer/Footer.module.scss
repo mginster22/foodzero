@@ -1,0 +1,74 @@
+@import "../../styles/colors";
+.container {
+  width: 100%;
+  padding: 0 120px;
+  max-width: 1644px;
+
+  box-sizing: border-box;
+  background-color: $black-green;
+}
+.wrapper {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 40px;
+  max-width: 50px;
+  color: $white;
+  font-family: "Rufina", serif;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  font-family: "Rufina";
+  color: $white;
+}
+.title {
+  font-size: 25px;
+}
+.subtitle {
+  font-size: 13px;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rufina", serif;
+  color: $white;
+}
+.emailForm {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  button {
+    background: none;
+    border: none;
+    background-color: $swamp;
+    padding: 17px 35px;
+    color: $white;
+    font-family: "Rufina", serif;
+    font-size: 15px;
+  }
+}
+.inputContact {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid white;
+  background: none;
+  color: $white;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  width: auto;
+}
+.contactTitl {
+  font-size: 25px;
+}
+.subtitel {
+  font-size: 12px;
+}

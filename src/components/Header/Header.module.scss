@@ -1,0 +1,39 @@
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 0 120px;
+  max-width: 1644px;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.headerItem {
+  background-image: none;
+}
+.text {
+  max-width: 500px;
+  margin-top: 100px;
+}
+.title {
+  font-size: 90px;
+  margin: 0;
+}
+.subtitle {
+  font-size: 20px;
+}
+.textRight {
+  margin-left: auto;
+  max-width: 550px;
+  margin-top: 200px;
+}
+.textCenter{
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

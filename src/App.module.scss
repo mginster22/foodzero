@@ -1,0 +1,19 @@
+@import "./styles/colors";
+@import "./styles/mixin";
+
+.container {
+  width: 100%; // Занимает всю ширину доступного пространства
+  max-width: 1644px; // Максимальная ширина контейнера, чтобы он не растягивался слишком сильно
+  margin: 0 auto; // Центрирует контейнер по горизонтали
+  padding: 0 120px; // Отступы по бокам, можно настроить в зависимости от потребностей
+  box-sizing: border-box;
+}
+appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Обеспечивает, чтобы контейнер занимал всю высоту экрана */
+}
+.content {
+  flex: 1;
+}
+

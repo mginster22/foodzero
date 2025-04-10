@@ -1,0 +1,38 @@
+@import "../../../../styles/colors";
+.container {
+  width: 100%;
+  padding: 0 120px;
+  max-width: 1644px;
+
+  box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    margin-top: 150px;
+    align-items:center;
+    justify-content: space-between;
+}
+.featuresBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+    padding: 0px 40px;
+}
+.imageBlock{
+    img{
+        width: 170px;
+    }
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Rufina',serif;
+}
+.subtitle{
+    font-size: 15px;
+    font-family: 'Rufina',serif;
+    max-width: 300px;
+    text-align: center;
+    color: $graphite;
+}
