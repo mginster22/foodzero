@@ -4,13 +4,13 @@ import s from "./Features.module.scss";
 const Features = () => {
   const featuresBlock = [
     {
-      img: "/images/CircleIcon1.png",
+      img: "/images/сircleIcon1.png",
       title: "Premium Quality",
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu",
     },
     {
-      img: "/images/CircleIcon2.png",
+      img: "/images/сircleIcon2.png",
       title: "Seasonal Vegetables",
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu",
