@@ -1,5 +1,4 @@
 import React from "react";
-import s from "./MenuPage.module.scss";
 import Starters from "./Starters/Starters";
 import Mains from "./Mains/Mains";
 import Drinks from "./Drinks/Drinks";

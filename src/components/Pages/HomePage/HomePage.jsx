@@ -1,5 +1,4 @@
 import React from "react";
-import s from "./HomePage.module.scss";
 import HeaderBlock from "./HeaderBlock/HeaderBlock";
 import MenuBlock from "./MenuBlock/MenuBlock";
 import ChefBlock from "./ChefBlock/ChefBlock";

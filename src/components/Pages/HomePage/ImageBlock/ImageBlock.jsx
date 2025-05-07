@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ImageBlock.module.scss"; // если ты используешь CSS-модули
-import classNames from "classnames";
 
 const ImageBlock = ({ title, subtitle, imageSrc, imageAlt, imagePosition }) => {
   return (
