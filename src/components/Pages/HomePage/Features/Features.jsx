@@ -4,19 +4,19 @@ import s from "./Features.module.scss";
 const Features = () => {
   const featuresBlock = [
     {
-      img: "/images/circleicon2.png",
+      image: "/images/circleicon2.png",
       title: "Premium Quality",
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu",
     },
     {
-      img: "/images/circleicon1.png",
+      image: "/images/circleicon1.png",
       title: "Seasonal Vegetables",
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu",
     },
     {
-      img: "/images/circleicon3.png",
+      image: "/images/circleicon3.png",
       title: "Fresh Fruit",
       subtitle:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu",
@@ -28,7 +28,7 @@ const Features = () => {
         {featuresBlock.map((item, index) => (
           <div className={s.featuresBlock} key={index}>
             <div className={s.imageBlock}>
-              <img src={item.img} alt={item.title} />
+              <img src={item.image} alt={item.title} />
             </div>
             <h2 className={s.title}>{item.title}</h2>
             <p className={s.subtitle}>{item.subtitle}</p>
